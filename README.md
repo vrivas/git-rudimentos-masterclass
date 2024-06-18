@@ -45,6 +45,25 @@ git commit -m "Mensaje"
 ```
 git config user.name "Ataulfo Rodendrales Mirapuertas"
 git config user.email "arodendrales@ujaen.es"
+```
+## Flujo básico de trabajo
+**¡Ojo al paso 3!**
+
+1. Creo/edito un fichero.
+2. Guardo el fichero
+3. `git add nombre_del_fichero`
+4. `git commit -m "Breve mensaje explicativo"`
+
+## Abreviando un poco
+Si tenemos la certeza de que todos los cambios hechos en los distintos ficheros se corresponden con una única tarea, podemos ahorrarnos el `git add` de los ficheros que habían sido ya añadidos antes:
+
+1. Edito un fichero que ya formaba parte del repo.
+2. Guardo el fichero
+3. `git commit -a -m "Breve mensaje explicativo"`
+
+**¡¡OJITO CON LOS 'y' EN LOS MENSAJES EXPLICATIVOS!!**
+
+
 
 
 
