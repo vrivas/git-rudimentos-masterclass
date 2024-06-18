@@ -80,11 +80,19 @@ git branch           # Listar ramas
 git branch nueva     # Crear nueva rama 'nueva'
 git switch nueva     # Cambiar a la rama 'nueva'
 git checkout nueva   # Equivalente a switch
+git switch -c otra_mas # Equivalente a branch+switch
 ...
 ...
 git switch main      # Cambiar a la rama 'main'
 git merge nueva      # Incorpora los cambios que haya en la rama 'nueva' a la rama 'main'
 ```
+## Los commits pueden ser puntos de partida de nuevas ramas
+```
+git log                # Para ver los commits
+git checkout c03fcb    # Para cambiar al estado que refleja dicho commit
+git switch -c rama_desde_commit # Para crear la rama desde ese punto
+```
+
 
 
 
