@@ -74,6 +74,16 @@ git instaweb
 git instaweb --stop
 ```
 
+### Vayámonos por las ramas
+```
+git branch # Listar ramas
+git branch nueva # Crear nueva rama 'nueva'
+git switch nueva # Cambiar a la rama 'nueva'
+...
+git switch main # cambiar a la rama 'main'
+```
+
+
 
 
 
