@@ -19,34 +19,34 @@ Sirve para llevar un registro de modificaciones en ficheros:
 
 (Pero funciona realmente bien con otros tipos de ficheros además de lo de texto).
   
-
-## De directorio a repositorio
+## Repos locales
+### De directorio a repositorio
 ```
 git init
 ```
 
-## Estado de mi repositorio
+### Estado de mi repositorio
 ```
 git status
 ```
 
-## Seguir la pista a un fichero
+### Seguir la pista a un fichero
 ```
 git add nombre_fichero
 ```
 
-## Confirmar que queremos registrar los cambios realizados en un fichero
+### Confirmar que queremos registrar los cambios realizados en un fichero
 ¡¡No olvides grabar primero los cambios hechos en tu fichero!!
 
 ```
 git commit -m "Mensaje"
 ```
-## ¿Problemas de autoría?
+### ¿Problemas de autoría?
 ```
 git config user.name "Ataulfo Rodendrales Mirapuertas"
 git config user.email "arodendrales@ujaen.es"
 ```
-## Flujo básico de trabajo
+### Flujo básico de trabajo
 **¡Ojo al paso 3!**
 
 1. Creo/edito un fichero.
@@ -54,7 +54,7 @@ git config user.email "arodendrales@ujaen.es"
 3. `git add nombre_del_fichero`
 4. `git commit -m "Breve mensaje explicativo"`
 
-## Abreviando un poco
+### Abreviando un poco
 Si tenemos la certeza de que todos los cambios hechos en los distintos ficheros se corresponden con una única tarea, podemos ahorrarnos el `git add` de los ficheros que habían sido ya añadidos antes:
 
 1. Edito un fichero que ya formaba parte del repo.
@@ -63,12 +63,12 @@ Si tenemos la certeza de que todos los cambios hechos en los distintos ficheros 
 
 **¡¡OJITO CON LOS 'y' EN LOS MENSAJES EXPLICATIVOS!!**
 
-## Historial de cambios
+### Historial de cambios
 ```
 git log
 ```
 
-## Un pelín de interfaz más humana
+### Un pelín de interfaz *"""""""más humana"""""""*
 ```
 git instaweb
 git instaweb --stop
