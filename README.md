@@ -93,7 +93,14 @@ git checkout c03fcb    # Para cambiar al estado que refleja dicho commit
 git switch -c rama_desde_commit # Para crear la rama desde ese punto
 ```
 
+## Repos remotos
+**¡¡Empieza mejor en el sitio web del gestor de Repos!!**
 
+1. Ve a GitHub y date de alta.
+2. Crea un repo.
+3. **CLONA** el repo. ¿Necesitas clave pública?
+4. Trabaja en tu repo local: editar > grabar > ¿git add? > git commit
+5. **SINCRONIZA** con el repo remoto: `git push`
 
 
 
