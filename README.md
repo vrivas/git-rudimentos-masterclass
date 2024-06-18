@@ -12,6 +12,21 @@ Sirve para llevar un registro de modificaciones en ficheros:
 
 ## Qué NO es Git
 
-* No es un sistema para tener copias de seguridad en la nube... pero funciona realmente bien como sistema de copias de seguridad en la nube.
+* No es un sistema para tener copias de seguridad en la nube... 
+
+(Pero funciona realmente bien como sistema de copias de seguridad en la nube).
+* No es un sistema especialmente indicando para trabajar con otro tipo de ficheros que no sean ficheros de texto.
+
+(Pero funciona realmente bien con otros tipos de ficheros además de lo de texto).
   
+
+## De directorio a repositorio
+```
+git init
+```
+
+## Estado de mi repositorio
+```
+git status
+````
 
