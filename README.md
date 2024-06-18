@@ -71,6 +71,7 @@ git log
 ## Un pelín de interfaz más humana
 ```
 git instaweb
+git instaweb --stop
 ```
 
 
