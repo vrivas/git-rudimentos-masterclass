@@ -93,6 +93,12 @@ git checkout c03fcb    # Para cambiar al estado que refleja dicho commit
 git switch -c rama_desde_commit # Para crear la rama desde ese punto
 ```
 
+## Los commits pueden permitirnos empezar desde un determinado punto
+```
+git log
+git reset --hard e3d24c  #¡¡OJO¡¡ PERDEMOS TODO EL TRABAJO POSTERIOR A ESE COMMIT
+```
+
 ## Repos remotos
 ### Crea el repo
 **¡¡Empieza mejor en el sitio web del gestor de Repos!!**
@@ -108,10 +114,19 @@ git switch -c rama_desde_commit # Para crear la rama desde ese punto
 2. Trabaja en tu repo local: editar > grabar > ¿git add? > git commit
 3. **SINCRONIZA** el repo remoto: `git push`
 
-`git pull` una vez. `git push`siempre que quieras.
+* `git pull` una vez. 
+* `git push`siempre que quieras. 
+* Puedes incluir más de un commit.
 
 ### Publica ramas locales
+```
+git switch -c rama_nueva                      # Crea la rama local
+git push --set-upstream origin rama_prueba    # Crea la rama remota y las asocia
+```
 
-
-
+### Borra ramas
+```
+git branch -d rama_prueba                    # Borra la local
+git branch -d --remote origin/rama_prueba    # Borra la remota
+```
 
