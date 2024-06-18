@@ -63,6 +63,16 @@ Si tenemos la certeza de que todos los cambios hechos en los distintos ficheros 
 
 **¡¡OJITO CON LOS 'y' EN LOS MENSAJES EXPLICATIVOS!!**
 
+## Historial de cambios
+```
+git log
+```
+
+## Un pelín de interfaz más humana
+```
+git instaweb
+```
+
 
 
 
