@@ -76,11 +76,14 @@ git instaweb --stop
 
 ### Vayámonos por las ramas
 ```
-git branch # Listar ramas
-git branch nueva # Crear nueva rama 'nueva'
-git switch nueva # Cambiar a la rama 'nueva'
+git branch           # Listar ramas
+git branch nueva     # Crear nueva rama 'nueva'
+git switch nueva     # Cambiar a la rama 'nueva'
+git checkout nueva   # Equivalente a switch
 ...
-git switch main # cambiar a la rama 'main'
+...
+git switch main      # Cambiar a la rama 'main'
+git merge nueva      # Incorpora los cambios que haya en la rama 'nueva' a la rama 'main'
 ```
 
 
